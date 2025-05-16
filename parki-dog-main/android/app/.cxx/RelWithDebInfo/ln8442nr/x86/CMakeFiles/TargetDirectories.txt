@@ -1,0 +1,2 @@
+C:/Users/PMLS/Downloads/parki-dog-main (2)/parki-dog-main (2)/parki-dog-main/parki-dog-main/android/app/.cxx/RelWithDebInfo/ln8442nr/x86/CMakeFiles/edit_cache.dir
+C:/Users/PMLS/Downloads/parki-dog-main (2)/parki-dog-main (2)/parki-dog-main/parki-dog-main/android/app/.cxx/RelWithDebInfo/ln8442nr/x86/CMakeFiles/rebuild_cache.dir

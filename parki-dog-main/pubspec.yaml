@@ -1,0 +1,129 @@
+name: parki_dog
+description: "parki-dog mobile app"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.6.0'  # Updated SDK version constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # caching
+  shared_preferences: ^2.2.2
+  # localization
+  easy_localization: ^3.0.4
+  # dependency injection
+  get_it: ^7.6.7
+  # API handling
+  dio: ^5.4.1
+  # show request details
+  pretty_dio_logger: ^1.3.1
+  # handling business logic
+  flutter_bloc: ^8.1.4
+  # compare objects
+  equatable: ^2.0.5
+  # responsiveness
+  flutter_screenutil: ^5.9.0
+  # shimmer effect
+  shimmer: ^3.0.0
+  # secure storage
+  flutter_secure_storage: ^9.2.2
+  # webview
+  webview_flutter: ^4.8.0
+  # SVG support
+  flutter_svg: ^2.0.10+1
+  # cached network image
+  cached_network_image: ^3.3.1
+  # carousel slider
+  carousel_slider_plus: ^7.0.1
+  # image picker
+  image_picker: ^1.1.2
+  # auto size text
+  auto_size_text: ^3.0.0
+  # firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  # google sign in
+  google_sign_in: ^6.2.1
+  # facebook sign in
+  flutter_facebook_auth: ^7.1.1
+  # loading spinner
+  flutter_spinkit: ^5.2.1
+  # pin code fields
+  pin_code_fields: ^8.0.1
+  # google maps
+  google_maps_flutter: ^2.9.0
+  flutter_google_maps_webservices: ^1.1.1
+  # geolocation
+  geolocator: ^13.0.1
+  # geocoding
+  geocoding: ^3.0.0
+  # widget to marker
+  widget_to_marker: ^1.0.6
+  # image cropper
+  image_cropper: ^8.0.2
+  # reactive extensions
+  rxdart: ^0.28.0
+  # country picker
+  country_code_picker: ^3.1.0
+  # socket communication
+  socket_io_client: ^3.0.2
+  # MongoDB
+  mongo_dart: ^0.10.3
+  # retry mechanism
+  retry: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/images/
+    - assets/images/icons/
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+
+    - family: roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+          weight: 900
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+          weight: 100
